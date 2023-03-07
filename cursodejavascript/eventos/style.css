@@ -1,0 +1,22 @@
+/* body{
+    background-color: black;
+    color: aliceblue;
+} */
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.item__gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(19, 19, 19);
+    cursor: pointer;
+}
+.red{
+    background-color: red;
+}
+.white{
+    background-color: white;
+}
